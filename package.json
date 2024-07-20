@@ -1,0 +1,19 @@
+{
+  "name": "my-ea-overlay",
+  "version": "0.0.1",
+  "description": "obs overlay software services",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "netlify deploy --prod",
+     "watch": "node --watch main.js"
+  },
+  "author": "zedic",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  }
+}

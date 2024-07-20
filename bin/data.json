@@ -1,0 +1,18 @@
+{
+  "count": 10,
+  "style": {
+    "color": "#222",
+    "bg": "crismon",
+    "position": "right"
+  },
+  "animation": {
+    "delay": 5500,
+    "wait": 1000
+  },
+  "option": false,
+  "messages": [
+    "hi",
+    "sup",
+    "hello"
+  ]
+}
