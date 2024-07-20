@@ -61,7 +61,8 @@ app.post("/store", (req, res) => {
 
 
 
-const port = 9085
+const port = process.env.PORT || 9085
+
 http.use("/api/", app)
 
 http.listen(port, (err, _) => {
